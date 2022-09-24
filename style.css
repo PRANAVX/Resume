@@ -227,9 +227,9 @@ h1,h2,h3,h4,p{
     color:rgba(235, 199, 155, 0.801);
 }
 
-.education>div{
-    /* height:30%; */
-}
+/* .education>div{
+    height:30%; 
+} */
 .ed{
     display:flex;
     flex-direction: column;
