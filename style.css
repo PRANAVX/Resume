@@ -8,6 +8,14 @@
     width:50%;
     margin:auto;
 }
+@media(max-width:500px) {
+    .container{
+        width:100%;
+    }
+    .main{
+        height:auto;
+    }
+}
 h1,h2,h3,h4,p{
     margin:0;
 }
@@ -16,7 +24,7 @@ h1,h2,h3,h4,p{
 
     display:flex;
     flex-direction:column;
-    height:25vh;
+    /* height:25vh; */
     /* background-color:rgb(169, 162, 162); */
     background: url("./mee.png");
     background-color: rgba(97, 95, 95,0.8);
@@ -65,7 +73,7 @@ h1,h2,h3,h4,p{
 }
 
 .main{
-    height:75vh;
+    /* height:75vh; */
     background-color:rgba(0, 0, 0, 0.803);
     display:grid;
     grid-template-columns:0.8fr 1fr;
