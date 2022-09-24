@@ -32,6 +32,7 @@ h1,h2,h3,h4,p{
     background-repeat: no-repeat;
     background-position: 360px -150px;
     filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.885));
+    font-size:2.2vh
     
 
 }
@@ -214,6 +215,7 @@ h1,h2,h3,h4,p{
     gap:10px;
     padding:10px;
     margin-top:-20px;
+    font-size:2.2vh
 }
 .education h3{
     color:rgba(255, 255, 255, 0.825);
@@ -226,7 +228,7 @@ h1,h2,h3,h4,p{
 }
 
 .education>div{
-    height:30%;
+    /* height:30%; */
 }
 .ed{
     display:flex;
@@ -250,7 +252,7 @@ h1,h2,h3,h4,p{
     
 }
 .projects>div{
-    height:20%;
+    /* height:20%; */
     text-align: justify;
     padding-top:10px;
     padding-right:10px;
